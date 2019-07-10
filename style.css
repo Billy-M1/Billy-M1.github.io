@@ -25,7 +25,7 @@ h1 {
 .secondbody {
   height: auto;
   background-color: skyblue;
-  background-image: url(file:///Users/billym/Documents/basketball21.webp);
+  background-image: url("./basketball21.webp");
 }
 .about {
   background-image: url("basketball.webp");
@@ -41,7 +41,7 @@ h1 {
   font: courier;
 }
 .firstbody {
-  background-image: url(file:///Users/billym/Documents/programming.webp);
+  background-image: url("./programming.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
