@@ -3,17 +3,23 @@
   font-size: 20px;
   color: black;
   font-weight: bold;
-  background-color: beige;
+  background-color: rgb(0, 118, 127);
 }
 .aboutme2 {
   text-align: left;
   font-size: 20px;
   color: black;
   font-weight: bold;
-  background-color: beige;
+  background-color: rgb(0, 128, 137);
 }
 .subtitles {
-  font-size: 35px
+  font-size: 35px;
+  background-color: lightgreen;
+}
+.subtitles2 {
+  font-size: 35px;
+  background-color: darkblue;
+  background-color: rgb(0, 128, 137);
 }
 .header1 {
   text-align: left;
@@ -25,7 +31,14 @@ h1 {
 .secondbody {
   height: auto;
   background-color: skyblue;
-  background-image: url("./basketball21.webp");
+  background-image: url("./background.webp");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+.thirdbody {
+  background-image: url("./links.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .about {
   background-image: url("basketball.webp");
@@ -39,6 +52,8 @@ h1 {
   text-align: right;
   font-size: 20px;
   font: courier;
+  width: 100%;
+  height: 100%;
 }
 .firstbody {
   background-image: url("./programming.webp");
@@ -51,8 +66,6 @@ header {
 .indeximage {
   width: 200px;
   height: 630px;
-}
-.indeximage {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -65,6 +78,62 @@ header {
   font-family: courier;
   text-align: center;
 }
-.subtitles {
-  background-color: skyblue;
+.me2image {
+  width: 400px;
+  height: 400px;
+}
+.slider {
+  width: 70%;
+  height: 500px;
+  background: url(hobby2.webp);
+  margin: 70px auto;
+  animation: slide 20s infinite;
+}
+@keyframes slide{
+  25% {
+  background: url(hobby4.webp);
+  }
+  50% {
+  background: url(hobby3.webp);
+  }
+  75% {
+  background: url(bball.jpeg);
+  }
+  100% {
+  background: url(hobby2.webp);
+  }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  /* background-color: white; */
+}
+.grid-container > div {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  /* background-color: skyblue; */
+}
+.item1 {
+  grid-column: 1 / 7;
+}
+.item4 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.item5 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.item6 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.item7 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.item8 {
+  grid-row: 3 / 4;
+  grid-column: 1 / 3;
 }
