@@ -41,7 +41,7 @@ h1 {
   background-size: cover;
 }
 .about {
-  background-image: url("basketball.webp");
+  background-image: url("./basketball.webp");
   background-position: center;
   length: 100%;
   background-size: cover;
@@ -102,6 +102,12 @@ header {
   100% {
   background: url(hobby2.webp);
   }
+}
+.names {
+  margin: 100px;
+}
+.namesfl {
+  text-align: right;
 }
 .grid-container {
   display: grid;
