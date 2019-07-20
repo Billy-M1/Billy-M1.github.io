@@ -49,6 +49,11 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.fourthbody {
+  background-image: url("./background4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .about {
   background-image: url("./basketball.webp");
   background-position: center;
@@ -113,7 +118,7 @@ header {
   }
 }
 .names {
-  margin: 100px 70px auto 1150px;
+  margin: 60px 70px auto 1150px;
 }
 .namesfl {
   text-align: right;
@@ -126,6 +131,22 @@ header {
   /* display: inline-block; */
   white-space: nowrap;
   text-align: center;
+}
+.friends1 {
+  background-color: skyblue;
+}
+.friends2 {
+  font-size: 60px;
+  text-align: center;
+}
+.resume {
+  text-align: center;
+  /* margin: 0px 300 300 0px; */
+  /* background-color: red; */
+}
+.resumel{
+  font-size: 200px;
+  margin: 0px 300 300 0px;
 }
 .grid-container {
   display: grid;
